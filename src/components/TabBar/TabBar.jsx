@@ -12,23 +12,23 @@ const Tab = createBottomTabNavigator();
 
 const TabBar = () => {
     return (
-        <Tab.Navigator screenOptions={{headerShown: false, tabBarActiveTintColor: "#1E1E1E"}} initialRouteName={APP_ROUTES_NAMES.HOME} >
+        <Tab.Navigator screenOptions={{headerShown: false,tabBarInactiveTintColor:"#A6A6A6" , tabBarActiveTintColor: "#1E1E1E"}} initialRouteName={APP_ROUTES_NAMES.HOME} >
             <Tab.Screen name={APP_ROUTES_NAMES.HOME} component={Home} options={{
                 tabBarLabel:"Home",
-                tabBarIcon: () => {
-                    return (<HomeIcon />)
+                tabBarIcon: ({color}) => {
+                    return (<HomeIcon fill={color}/>)
                 }
             }}/>
             <Tab.Screen name={APP_ROUTES_NAMES.CHAT} component={Chat} options={{
                 tabBarLabel:"Conversas",
-                tabBarIcon: () => {
-                    return (<ChatIcon/>)
+                tabBarIcon: ({color}) => {
+                    return (<ChatIcon fill={color}/>)
                 }
             }}/>
             <Tab.Screen name={APP_ROUTES_NAMES.CONFIGURATION} component={Configuration}options={{
                 tabBarLabel:"Configurações",
-                tabBarIcon: () => {
-                    return (<ConfigIcon/>)
+                tabBarIcon: ({color}) => {
+                    return (<ConfigIcon fill={color}/>)
                 }
                 }}/>
         </Tab.Navigator>
