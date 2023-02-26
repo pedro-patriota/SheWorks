@@ -1,15 +1,14 @@
 import React from "react";
 import { Text, View } from "react-native";
-import TabBar from "../../components/TabBar/TabBar";
 
-const Home = () => {
+const Chat = () => {
     return (
         <View  style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
             <Text>
-                "Home"
+                "Chat"
             </Text>
 
         </View>
     )
 }
-export default Home;
+export default Chat;
