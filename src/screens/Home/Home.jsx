@@ -1,15 +1,31 @@
 import React from "react";
-import { Text, View } from "react-native";
-import TabBar from "../../components/TabBar/TabBar";
+import {SafeAreaView, StatusBar, StyleSheet, Text, View } from "react-native";
 
 const Home = () => {
     return (
-        <View  style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>
-                "Home"
-            </Text>
-
+        <View>
+            <View  style={styles.topContainer}>
+                <Text style={styles.welcomeName}>
+                    Olá Fulana
+                </Text>
+            </View>
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    topContainer: {
+        flexDirection: 'row',
+        height: 100,
+        padding: 20,
+        backgroundColor: 'blue',
+        // justifyContent: 'center',
+        alignItems: 'center',
+    },
+    welcomeName:{
+        fontWeight: 'bold',
+    }
+
+})
+
 export default Home;
