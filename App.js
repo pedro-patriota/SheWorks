@@ -27,15 +27,13 @@ const App = () => {
 
   return (
     <SafeAreaView style={{flex: 1}}>
-
       <StatusBar
         animated={true} 
         barStyle={'light-content'}
-        backgroundColor="#000000"
+        backgroundColor="#"
        />
       <NavigationContainer theme={theme}>
-        <StatusBarBackground />
-        <TabBar />
+      <TabBar />
 
       </NavigationContainer>
     </SafeAreaView>
