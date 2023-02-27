@@ -2,7 +2,8 @@ import React from "react";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { APP_ROUTES_NAMES } from '../../routes/routesName';
 import Home from '../../screens/Home/Home';
-import Chat from "../../screens/Chat/Chat";
+import Chat from "../../screens/Chat/ChatList/ChatList";
+import MyStack from "../../screens/Chat/Navigation";
 import Configuration from "../../screens/Configuration/Configuration";
 import HomeIcon from "../../../assets/Icons/HomeIcon"
 import ChatIcon from "../../../assets/Icons/ChatIcon"
@@ -19,7 +20,7 @@ const TabBar = () => {
                     return (<HomeIcon fill={color}/>)
                 }
             }}/>
-            <Tab.Screen name={APP_ROUTES_NAMES.CHAT} component={Chat} options={{
+            <Tab.Screen name={APP_ROUTES_NAMES.CHAT} component={MyStack} options={{
                 tabBarLabel:"Conversas",
                 tabBarIcon: ({color}) => {
                     return (<ChatIcon fill={color}/>)
