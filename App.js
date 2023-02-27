@@ -6,7 +6,7 @@ import Home from "./src/screens/Home/Home";
 import TabBar from "./src/components/TabBar/TabBar";
 import { APP_ROUTES_NAMES} from "./src/routes/routesName" ;
 import StatusBarBackground
- from "./src/screens/StatusBar/StatusBarBackground";
+ from "./src/components/StatusBar/StatusBarBackground";
 const stack = createStackNavigator();
 
 const theme = {
