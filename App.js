@@ -30,7 +30,7 @@ const App = () => {
       <StatusBar
         animated={true} 
         barStyle={'light-content'}
-        backgroundColor="#"
+        backgroundColor="#000000"
        />
       <NavigationContainer theme={theme}>
       <TabBar />
