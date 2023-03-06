@@ -1,7 +1,7 @@
 import React from "react"
 import { View, FlatList, Dimensions, StyleSheet} from "react-native"
-import StarIcon from "../../../assets/Icons/StarIcon"
-import PicIcon from "../../../assets/Icons/PicIcon"
+import StarIcon from "../../../../assets/Icons/StarIcon"
+import PicIcon from "../../../../assets/Icons/PicIcon"
 
 const ProvidersSlider = () => {
 
