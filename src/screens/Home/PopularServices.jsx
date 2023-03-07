@@ -13,22 +13,22 @@ const ServicesSlider = () => {
             medium: 4.5,
         },
         {
-            title: "Troca de Resistência",
+            title: "Trocas de Resistência",
             providersAmt: 12,
             medium: 4.5,
         },
         {
-            title: "Troca de Resistência",
+            title: "Trocad de Resistência",
             providersAmt: 12,
             medium: 4.5,
         },
         {
-            title: "Troca de Resistência",
+            title: "Trocea de Resistência",
             providersAmt: 12,
             medium: 4.5,
         },
         {
-            title: "Troca de Resistência",
+            title: "Trocesa de Resistência",
             providersAmt: 12,
             medium: 4.5,
         },

@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { APP_ROUTES_NAMES } from "../../../routes/routesName";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import ChatListItem from "../../../components/ChatListItems";
-import chatRooms from "../Data/ChatRoom";
+import chatRooms from "../../../../server/Data/ChatRoom";
 
 const Chat = ({ navigation }) => {
     return (
