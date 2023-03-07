@@ -8,7 +8,8 @@ import { StatusBar, SafeAreaView }  from 'react-native';
 import TabBar from "./src/components/TabBar/TabBar";
 import { APP_ROUTES_NAMES } from "./src/routes/routesName";
 import StatusBarBackground
-  from "./src/screens/StatusBar/StatusBarBackground";
+from "./src/components/StatusBar/StatusBarBackground";
+
 const stack = createStackNavigator();
 
 const theme = {
@@ -26,15 +27,13 @@ const App = () => {
 
   return (
     <SafeAreaView style={{flex: 1}}>
-
       <StatusBar
         animated={true} 
         barStyle={'light-content'}
         backgroundColor="#000000"
        />
       <NavigationContainer theme={theme}>
-        <StatusBarBackground />
-        <TabBar />
+      <TabBar />
 
       </NavigationContainer>
     </SafeAreaView>

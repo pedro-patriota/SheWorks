@@ -11,7 +11,6 @@ import { useNavigation } from '@react-navigation/native';
 
 const ChatListItem = (ChatListItemProps) => {
     const { chatRoom } = ChatListItemProps;
-    console.log(chatRoom)
    /*  const [ otherUser, setOtherUser] = useState(null);
     setOtherUser(chatRoom.chatRoomUsers.items[0].user); */
     const navigation = useNavigation();
