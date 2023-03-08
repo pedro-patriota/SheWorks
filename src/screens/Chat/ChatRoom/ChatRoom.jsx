@@ -32,12 +32,12 @@ const ChatRoom = ({ route, navigation }) => {
     
     return (
         <ImageBackground style={{ width: '100%', height: '100%' }} source={require("../../../../assets/Img/BG.png")}>
-            <FlatList
+            {<FlatList
             data={messages}
             renderItem={({ item }) => <ChatMessageProps id={id} message={item} />}
-            inverted>
+            inverted={false}>
                 
-            </FlatList>
+            </FlatList>}
             <InputBox chatRoomId={id}></InputBox>
         </ImageBackground>
     )

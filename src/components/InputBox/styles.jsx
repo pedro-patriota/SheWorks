@@ -21,6 +21,8 @@ const styles = StyleSheet.create({
   },
   icon: {
     marginHorizontal: 5,
+    width:22,
+    height:22
   },
   buttonContainer: {
     backgroundColor: "#0C6157",
