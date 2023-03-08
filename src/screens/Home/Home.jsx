@@ -5,7 +5,7 @@ import LocationIcon from "../../../assets/Icons/LocationIcon";
 import CategorySlider from "./components/CategorySlider"
 import ProvidersSlider from "./components/ProvidersSlider";
 import PopularServices from "./components/PopularServices";
-import ProvidersFilter from "./components/ProvidersFilter";
+import ProvidersFilter from "./components/Filter/ProvidersFilter";
 
 const Home = () => {
     return (

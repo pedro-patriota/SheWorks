@@ -43,7 +43,7 @@ router.post('/add_msg', (req, res) => {
         "createdAt": {date},
         "user": {
             "id": "me",
-            "name": "Pedro"
+            "name": "Maria"
         }
     }
     

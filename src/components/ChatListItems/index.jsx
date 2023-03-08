@@ -24,7 +24,7 @@ const ChatListItem = (ChatListItemProps) => {
         <TouchableWithoutFeedback onPress={onClick}>
       <View style={styles.container}>
         <View style={styles.lefContainer}>
-          <Image source={{ uri: "https://www.linkpicture.com/q/IMG-20230105-WA0004.jpg"}} style={styles.avatar}/>
+          <Image source={{ uri: chatRoom.imageUri}} style={styles.avatar}/>
 
           <View style={styles.midContainer}>
             <Text style={styles.username}>{chatRoom.name}</Text>

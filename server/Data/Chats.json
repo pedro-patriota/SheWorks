@@ -13,7 +13,7 @@
 		"createdAt": "2020-10-10T12:48:00.000Z",
 		"user": {
 			"id": "me",
-			"name": "Pedro"
+			"name": "Maria"
 		}
 	}, {
 		"id": "m2",
@@ -21,7 +21,7 @@
 		"createdAt": "2020-10-03T14:49:00.000Z",
 		"user": {
 			"id": "u2",
-			"name": "Heitor"
+			"name": "Beatriz"
 		}
 	}, {
 		"id": "m3",
@@ -29,7 +29,7 @@
 		"createdAt": "2020-10-03T14:49:40.000Z",
 		"user": {
 			"id": "u2",
-			"name": "Heitor"
+			"name": "Beatriz"
 		}
 	}, {
 		"id": "m4",
@@ -37,7 +37,7 @@
 		"createdAt": "2020-10-03T14:50:00.000Z",
 		"user": {
 			"id": "me",
-			"name": "Pedro"
+			"name": "Maria"
 		}
 	}, {
 		"id": "m5",
@@ -45,7 +45,7 @@
 		"createdAt": "2020-10-03T14:51:00.000Z",
 		"user": {
 			"id": "me",
-			"name": "Pedro"
+			"name": "Maria"
 		}
 	}, {
 		"id": "m6",
@@ -53,7 +53,7 @@
 		"createdAt": "2020-10-03T14:49:00.000Z",
 		"user": {
 			"id": "u2",
-			"name": "Heitor"
+			"name": "Beatriz"
 		}
 	}, {
 		"id": "m7",
@@ -61,7 +61,7 @@
 		"createdAt": "2020-10-03T14:53:00.000Z",
 		"user": {
 			"id": "me",
-			"name": "Pedro"
+			"name": "Maria"
 		}
 	}]
 }]
