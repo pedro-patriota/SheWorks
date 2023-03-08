@@ -2,9 +2,10 @@ import React from "react";
 import {ScrollView, SafeAreaView, StatusBar, StyleSheet, Text, View, PixelRatio, Button} from "react-native";
 import PersonIcon from "../../../assets/Icons/PersonIcon";
 import LocationIcon from "../../../assets/Icons/LocationIcon";
-import CategorySlider from "./CategorySlider"
-import ProvidersSlider from "./ProvidersSlider";
-import PopularServices from "./PopularServices";
+import CategorySlider from "./components/CategorySlider"
+import ProvidersSlider from "./components/ProvidersSlider";
+import PopularServices from "./components/PopularServices";
+import ProvidersFilter from "./components/ProvidersFilter";
 
 const Home = () => {
     return (
@@ -25,13 +26,16 @@ const Home = () => {
             </View>
             <ScrollView>
                 <View>
+                    <ProvidersFilter/>
+                </View>
+                <View>
                     <View style={{flexDirection: "row"}}>
                         <Text style={styles.homeTitles}>Categorias</Text>
                         <View  style={styles.seeFurtherView}>
                             <Button 
                                 title="Ver mais" 
                                 color="black"
-                                style={styles.seeFurtherButton}
+                                style={{width: 19065}}
                             />
                         </View>
                     </View>

@@ -1,15 +1,10 @@
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { useFonts } from "expo-font";
-
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import Home from "./src/screens/Home/Home";
-import { StatusBar, SafeAreaView }  from 'react-native';
+import { StatusBar, View, SafeAreaView } from 'react-native';
 import TabBar from "./src/components/TabBar/TabBar";
 import { APP_ROUTES_NAMES } from "./src/routes/routesName";
-import StatusBarBackground
-from "./src/components/StatusBar/StatusBarBackground";
-
+import StatusBarGeneral from './src/components/StatusBar/StatusBarBackground'
 const stack = createStackNavigator();
 
 const theme = {
